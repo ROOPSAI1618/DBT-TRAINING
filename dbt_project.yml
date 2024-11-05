@@ -39,5 +39,4 @@ models:
   DBT_PROJECT:
     # Applies to all files under models/example/
     example:
-      schema: DBT_DB
       +materialized: table
